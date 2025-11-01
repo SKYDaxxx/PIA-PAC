@@ -5,7 +5,7 @@
 * Andres Tadeo Flores Pinal
 * Eduardo Flores Smith
 * Jorge Luis Casas Cruz
-* [Añadir más integrantes si es necesario]
+
 
 ## 2. Declaración de Cumplimiento y Medidas de Seguridad
 
@@ -33,4 +33,4 @@ Como constancia de entendimiento y compromiso con estas directrices éticas:
 * Andres Tadeo Flores Pinal
 * Eduardo Flores Smith
 * Jorge Luis Casas Cruz
-* [Añadir más integrantes si es necesario]
+
