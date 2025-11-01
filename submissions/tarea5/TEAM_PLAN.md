@@ -1,11 +1,11 @@
 # Tarea 5 — Primer avance PIA — Equipo 3
 
-## 🧩 Resumen del proyecto
+##  Resumen del proyecto
 El proyecto consiste en desarrollar un **payload educativo tipo “Ejecutor de algoritmo”**, cuyo propósito es **implementar y analizar algoritmos didácticos de cifrado y hashing** en C++. El programa procesará datos de prueba, mostrará resultados por consola y permitirá observar diferencias entre compilaciones optimizadas y sin optimizar.
 
 ---
 
-## 🎯 Alcance y límites
+##  Alcance y límites
 
 **Alcance (permitido):**
 - Implementar algoritmos **simples y educativos** de cifrado y hashing.  
@@ -22,7 +22,7 @@ El proyecto consiste en desarrollar un **payload educativo tipo “Ejecutor de a
 
 ---
 
-## 🗓️ Plan de trabajo por fases
+##  Plan de trabajo por fases
 
 | Fase | Actividades principales | Fecha estimada |
 |------|--------------------------|----------------|
@@ -33,7 +33,7 @@ El proyecto consiste en desarrollar un **payload educativo tipo “Ejecutor de a
 
 ---
 
-## 👥 Distribución de tareas por integrante
+##  Distribución de tareas por integrante
 
 **Jorge Casas**  
 - Implementar funciones de cifrado.  
@@ -52,7 +52,7 @@ El proyecto consiste en desarrollar un **payload educativo tipo “Ejecutor de a
 
 ---
 
-## 🛡️ Medidas éticas y de seguridad
+##  Medidas éticas y de seguridad
 - Todas las ejecuciones se realizarán **en máquinas virtuales aisladas** sin conexión externa.  
 - Se crearán **snapshots previos y posteriores** a las pruebas.  
 - No se realizará **exfiltración ni persistencia de datos**; todo el output será local.  
@@ -60,7 +60,7 @@ El proyecto consiste en desarrollar un **payload educativo tipo “Ejecutor de a
 
 ---
 
-## 🏷️ Commit/tag inicial
+##  Commit/tag inicial
 Commit inicial del repositorio:  
 `tag: v0.1-initial` — Hash: `c4bdbf0`  
 Marca oficial del inicio del desarrollo de la Tarea 5.
