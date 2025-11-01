@@ -3,8 +3,8 @@
 ## 1. Integrantes del Equipo
 
 * Andres Tadeo Flores Pinal
-* [Nombre Completo del Integrante 2]
-* [Nombre Completo del Integrante 3]
+* Eduardo Flores Smith
+* Jorge Luis Casas Cruz
 * [Añadir más integrantes si es necesario]
 
 ## 2. Declaración de Cumplimiento y Medidas de Seguridad
@@ -31,6 +31,6 @@ Para asegurar el cumplimiento de lo anterior, implementaremos las siguientes acc
 Como constancia de entendimiento y compromiso con estas directrices éticas:
 
 * Andres Tadeo Flores Pinal
-* [Nombre Completo del Integrante 2]
-* [Nombre Completo del Integrante 3]
+* Eduardo Flores Smith
+* Jorge Luis Casas Cruz
 * [Añadir más integrantes si es necesario]
