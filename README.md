@@ -1,5 +1,5 @@
 # README
-# C-Hash-Cipher: Herramienta de Cifrado y Hash
+# MiniCryptTool: Herramienta de Cifrado y Hash
 
 Este proyecto es un programa educativo en C++ para la línea de comandos que implementa algoritmos básicos de cifrado (César, XOR) y hashing (DJB2, FNV-1a) para procesar texto.
 
