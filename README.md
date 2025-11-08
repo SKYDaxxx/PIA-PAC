@@ -22,6 +22,41 @@ Este proyecto es un programa educativo en C++ para la línea de comandos que imp
 * **Arquitectura:** x86_64
 * **Compilador (Recomendado):** g++ (C++17) o MSVC
 
+## Para compilar con g++
+g++ -std=c++11 -Wall -o minicrypt MiniCryptTool.cpp
+
+## Ejecucion
+
+El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opciones...]
+
+**Ejemplo 1: Cifrado César (desde stdin) Se usa echo para pasar texto al programa a través de una pipeline**
+* **Comando:
+`echo "Hola Mundo" | ./minicrypt --mode cipher --alg caesar --shift 3`**
+
+* **Salida:
+`Krod Pxqgr`**
+---
+**Ejemplo 2: Descifrado César (desde stdin) Se usa el desplazamiento negativo correspondiente.**
+* **Comando:
+`--echo "Krod Pxqgr" | ./minicrypt --mode cipher --alg caesar --shift -3`**
+
+* **Salida:
+`Hola Mundo`**
+---
+**Ejemplo 3:Cifrado XOR (con archivo de entrada) Primero, creamos un archivo de prueba. Luego, lo ciframos y redirigimos la salida (>) a un nuevo archivo**
+* **1. Crear archivo de entrada:
+`echo "Este es un secreto importante." > entrada.txt`**
+* **2. Cifrar archivo: 
+`./minicrypt --mode cipher --alg xor --key "miClave123" --in entrada.txt > cifrado.bin`**
+  
+---
+**Ejemplo 4:Descifrado XOR (con archivo de entrada) El cifrado XOR es simétrico. Usar la misma clave sobre el archivo cifrado recupera el original.**
+* **Comando: `./minicrypt --mode cipher --alg xor --key "miClave123" --in cifrado.bin`
+* **Salida:
+`Este es un secreto importante.`**
+
+**COMANDO PARA OBTENER AYUDA: `./minicrypt --help`**
+---
 ##  Cómo Clonar
 
 Para obtener una copia local de este proyecto, clona el repositorio usando el siguiente comando:
