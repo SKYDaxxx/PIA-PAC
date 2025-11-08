@@ -55,6 +55,19 @@ El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opc
 * **Salida:
 `Este es un secreto importante.`**
 
+---
+
+##  Plan de trabajo por fases
+
+|ID| Contribuidor | Contribuciones |
+|------|--------------------------|----------------|
+| 1.| Jorge Luis Casas | Implementar funciones de cifrado. Elaborar script de compilación ||
+| 2. |Eduardo Flores Smith | Implementar funciones de hashing y Ejecutar análisis dinámico | |
+| 3. |Andres Tadeo Flores | Diseñar datos de prueba y validar resultados de algoritmos |  |
+
+---
+
+
 **COMANDO PARA OBTENER AYUDA: `./minicrypt --help`**
 ---
 ##  Cómo Clonar
@@ -63,3 +76,10 @@ Para obtener una copia local de este proyecto, clona el repositorio usando el si
 
 ```bash
 git clone https://github.com/TU_USUARIO/nombre-proyecto.git
+
+--
+
+
+
+
+
