@@ -56,6 +56,8 @@ El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opc
 `Este es un secreto importante.`**
 
 ---
+**Ejemplo 5:Ver todas las opciones disponibles para ejecutar codigo**
+* **Comando: `./minicrypttool --help`
 
 ##  Plan de trabajo por fases
 
