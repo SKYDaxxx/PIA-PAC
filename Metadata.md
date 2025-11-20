@@ -19,7 +19,7 @@ A continuación se describen las VMs utilizadas en el ciclo de desarrollo y CI/C
 Para revertir el entorno a un estado conocido, utilizamos los siguientes snapshots en nuestro hipervisor (ej. VMware/VirtualBox/AWS AMI):
 
 * **Snapshot Base ID:** `snap-0a1b2c3d4e5f6g7h8`
-* **Fecha de Creación:** 2023-10-27
+* **Fecha de Creación:** 2025-10-25
 * **Descripción:** Instalación limpia de OS + herramientas de compilación (build-essential) sin código fuente clonado.
 * **Checksum del Estado (SHA256):** `[Si aplica/disponible]`
 
