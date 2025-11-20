@@ -62,7 +62,7 @@ El proyecto consiste en desarrollar un **payload educativo tipo “Ejecutor de a
 
 ##  Commit/tag inicial
 Commit inicial del repositorio:  
-`tag: v0.1-initial` — Hash: `c4bdbf0`  
+`a949f8a8a70c2e067f2d30e5253e512b4be93423`  
 Marca oficial del inicio del desarrollo de la Tarea 5.
 
 ---
