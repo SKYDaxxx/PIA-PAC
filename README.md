@@ -60,7 +60,7 @@ El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opc
 * **Comando: `./minicrypttool --help`
 ---
 ## Video de uso basico de la herramienta:
-![link](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/demo%20uso%20basico%20del%20script.mp4)
+[link](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/demo%20uso%20basico%20del%20script.mp4)
 ##  Plan de trabajo por fases
 
 |ID| Contribuidor | Contribuciones |
@@ -70,7 +70,13 @@ El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opc
 | 3. |Andres Tadeo Flores | Diseñar datos de prueba y validar resultados de algoritmos |  |
 
 ---
+## Reporte ejecutivo
+[Reporte final](https://github.com/SKYDaxxx/PIA-PAC/blob/main/docs/Reporte_Final.pdf)
 
+---
+## Video presentacion individual
+Los videos se podran encontrar en el siguiente canal: 
+[Enlace a canal de youtube](https://www.youtube.com/@LSTIproyectos-ou9mx)
 
 **COMANDO PARA OBTENER AYUDA: `./minicrypt --help`**
 ---
