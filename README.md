@@ -58,7 +58,9 @@ El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opc
 ---
 **Ejemplo 5:Ver todas las opciones disponibles para ejecutar codigo**
 * **Comando: `./minicrypttool --help`
-
+---
+## Video de uso basico de la herramienta:
+![link](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/demo%20uso%20basico%20del%20script.mp4)
 ##  Plan de trabajo por fases
 
 |ID| Contribuidor | Contribuciones |
