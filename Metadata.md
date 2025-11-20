@@ -10,7 +10,7 @@ A continuación se describen las VMs utilizadas en el ciclo de desarrollo y CI/C
 | :--- | :--- | :--- | :--- | :--- |
 | **Build Host** | Ubuntu 22.04.2 LTS | 6.11.0.19-generic | `10.128.0.XX` | Servidor principal de compilación |
 | **Test Env** | Ubuntu 22.04.9 LTS) | 6.11.0.23-generic | `10.128.0.YY` | Entorno limpio para tests de integración |
-| **Trouble shooting** | Ubuntu 22.04.4 LTS | 3.10.0-173 | `192.168.1.XX` | Pruebas de compatibilidad hacia atrás |
+| **Trouble shooting** | Ubuntu 22.04.4 LTS | 6.10.32-generic | `192.168.1.XX` | Pruebas de errores  |
 
 > **Nota sobre privacidad:** Las IPs listadas corresponden a redes privadas. Los octetos finales han sido ofuscados por seguridad en este repositorio público.
 
