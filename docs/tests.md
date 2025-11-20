@@ -7,29 +7,46 @@
 ## Comandos exactos ejecutados
 
 ### Compilar:
-
+De manera estandar en la linea de comandos:
 ```bash
 g++ MiniCryptTool.cpp -o MiniCryptTool
 ```
 
 *(Nota: El ejecutable compilado `MiniCryptTool` fue movido a la carpeta `/bin/`)*
 
-### Ejecutar Prueba (XOR con archivo):
+## Ejecucion
 
-Se creó un archivo `input.txt` con el texto "Este es mi texto de prueba secreto".
+El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opciones...]
 
-**Cifrado:**
+**Ejemplo 1: Cifrado César (desde stdin) Se usa echo para pasar texto al programa a través de una pipeline**
+* **Comando:
+`echo "Hola Mundo" | ./minicrypt --mode cipher --alg caesar --shift 3`**
 
-```bash
-./bin/MiniCryptTool --mode cipher --alg xor --key prueba1 --in input.txt > out_xor.bin
-```
+* **Salida:
+`Krod Pxqgr`**
+---
+**Ejemplo 2: Descifrado César (desde stdin) Se usa el desplazamiento negativo correspondiente.**
+* **Comando:
+`--echo "Krod Pxqgr" | ./minicrypt --mode cipher --alg caesar --shift -3`**
 
-**Descifrado:**
+* **Salida:
+`Hola Mundo`**
+---
+**Ejemplo 3:Cifrado XOR (con archivo de entrada) Primero, creamos un archivo de prueba. Luego, lo ciframos y redirigimos la salida (>) a un nuevo archivo**
+* **1. Crear archivo de entrada:
+`echo "Este es un secreto importante." > entrada.txt`**
+* **2. Cifrar archivo: 
+`./minicrypt --mode cipher --alg xor --key "miClave123" --in entrada.txt > cifrado.bin`**
+  
+---
+**Ejemplo 4:Descifrado XOR (con archivo de entrada) El cifrado XOR es simétrico. Usar la misma clave sobre el archivo cifrado recupera el original.**
+* **Comando: `./minicrypt --mode cipher --alg xor --key "miClave123" --in cifrado.bin`
+* **Salida:
+`Este es un secreto importante.`**
 
-```bash
-./bin/MiniCryptTool --mode cipher --alg xor --key prueba1 --in out_xor.bin > recovered.txt
-```
-
+---
+**Ejemplo 5:Ver todas las opciones disponibles para ejecutar codigo**
+* **Comando: `./minicrypttool --help`
 ## Resultados observados
 
 El archivo `out_xor.bin` se generó como un archivo binario ilegible.
@@ -44,3 +61,4 @@ Esto confirma que el ciclo de cifrado y descifrado funciona correctamente.
 ### Evidencia (Capturas de Pantalla)
 
   * [Captura de la ejecución de la prueba](2025-11-07_19-12.png)
+
