@@ -4,13 +4,25 @@
   * **Compilador:** g++ (instalado mediante `build-essential`)
   * **Plataforma:** Linux x86_64
 
-## Comandos exactos ejecutados
+## Comandos a ejecutar para Compilar MiniCryptTool
 
 ### Compilar:
 De manera estandar en la linea de comandos:
 ```bash
 g++ MiniCryptTool.cpp -o MiniCryptTool
 ```
+![alt](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/Copilacion-estandar.png)
+---
+### Make
+
+Utilizando make: 
+Si se descargo el archivo Makefile se puede compilar simplemente haciendo lo siguiente:
+1. Asegurarse que el archivo Makefile esta en la carpeta donde esta el programa no compilado
+2. Realizar:
+```make```
+3. En caso de ser necesario dar permisos con: chmod u+x
+---
+![alt](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/Makefile.png)
 
 *(Nota: El ejecutable compilado `MiniCryptTool` fue movido a la carpeta `/bin/`)*
 
@@ -61,4 +73,5 @@ Esto confirma que el ciclo de cifrado y descifrado funciona correctamente.
 ### Evidencia (Capturas de Pantalla)
 
   * [Captura de la ejecución de la prueba](2025-11-07_19-12.png)
+
 
