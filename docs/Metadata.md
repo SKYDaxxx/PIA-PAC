@@ -18,7 +18,7 @@ Cada VM fue creada únicamente para este proyecto y no se utilizó con otros fin
 
 **Evidencia:** 
 * Todas las maquinas estan aisladas para asegurar que se realizo en un entorno controlado:
-![alt](evidence/VM_Aislada.jpg)
+![alt](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/VM_Aislada.jpg)
 
 ---
 
