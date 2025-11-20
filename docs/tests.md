@@ -55,23 +55,19 @@ El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opc
 * **Comando: `./minicrypt --mode cipher --alg xor --key "miClave123" --in cifrado.bin`
 * **Salida:
 `Este es un secreto importante.`**
-
+* [Captura de la ejecución de la prueba](2025-11-07_19-12.png)
 ---
 **Ejemplo 5:Ver todas las opciones disponibles para ejecutar codigo**
 * **Comando: `./minicrypttool --help`
-## Resultados observados
-
-El archivo `out_xor.bin` se generó como un archivo binario ilegible.
-Al ejecutar el comando de descifrado y revisar el archivo `recovered.txt` (usando `cat recovered.txt`), la salida de la consola fue:
-
-```
-Este es mi texto de prueba secreto
-```
-
-Esto confirma que el ciclo de cifrado y descifrado funciona correctamente.
-
-### Evidencia (Capturas de Pantalla)
-
-  * [Captura de la ejecución de la prueba](2025-11-07_19-12.png)
+  
+## Pruebas Dinamicas:
+Comportamiento observado:
+1. El binario no genera procesos secundarios.
+2. No interactúa con red, registros del sistema ni recursos críticos.
+3. El uso de CPU y memoria es mínimo.
+4. Las salidas coinciden con el comportamiento esperado según algoritmo.
+5. Diferencias entre comportamiento anticipado y observado:
+6. No se detectaron discrepancias significativas.
+7. El binario operó exactamente dentro del límite funcional esperado.
 
 
