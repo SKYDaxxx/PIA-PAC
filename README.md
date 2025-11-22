@@ -60,7 +60,7 @@ El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opc
 * **Comando: `./minicrypttool --help`
 ---
 ## Video de uso basico de la herramienta:
-[link](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/demo%20uso%20basico%20del%20script.mp4)
+* **[link](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/demo%20uso%20basico%20del%20script.mp4)
 ##  Plan de trabajo por fases
 
 |ID| Contribuidor | Contribuciones |
@@ -75,8 +75,8 @@ El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opc
 
 ---
 ## Video presentacion individual
-Los videos se podran encontrar en el siguiente canal: 
-[Enlace a canal de youtube](https://www.youtube.com/@LSTIproyectos-ou9mx)
+Los videos se podran encontrar en el repositorio en evidence: 
+* [Video de Eduardo Flores Smith | Enlace a video en el repositorio](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/video_Flores_Eduardo.mp4)
 
 **COMANDO PARA OBTENER AYUDA: `./minicrypt --help`**
 ---
