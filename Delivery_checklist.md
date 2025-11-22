@@ -28,5 +28,5 @@
 ## Video Presentacion PIA (individual)
 |Hash commit | Nombre video | Duracion|
 | :--- | :--- | :---
-|8acc90013244e7dd5b234b617909380202398675 | video_Flores_Eduardo.mp4 |3:00|
+|8acc90013244e7dd5b234b617909380202398675 | [video_Flores_Eduardo.mp4](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/video_Flores_Eduardo.mp4) |3:00|
 | e5ab8fd9c7d47fd45ab840179a6635b47f48abdd | Video flores pinal |02:26|
