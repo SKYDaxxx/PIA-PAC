@@ -75,8 +75,9 @@ El uso básico del programa es: ./minicrypt --mode cipher --alg <algoritmo> [opc
 
 ---
 ## Video presentacion individual
-Los videos se podran encontrar en el repositorio en evidence: 
+Los videos se podrán encontrar en el repositorio en **/evidence**:
 * [Video de Eduardo Flores Smith | Enlace a video en el repositorio](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/video_Flores_Eduardo.mp4)
+* [Video de Jorge Casas | Enlace a video en el repositorio](https://github.com/SKYDaxxx/PIA-PAC/blob/main/evidence/video_Casas_Jorge.mp4)
 
 **COMANDO PARA OBTENER AYUDA: `./minicrypt --help`**
 ---
