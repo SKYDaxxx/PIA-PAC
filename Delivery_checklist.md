@@ -23,4 +23,10 @@
 |Hash final | Tag creado | 
 | :--- | :--- 
 |25a714bf4a4dfaeda27df4294d5b0f47ec106f71 | final-delivery-PIA-2025-20-11  
-| e5ab8fd9c7d47fd45ab840179a6635b47f48abdd | Video flores pinal |
+
+---
+## Video Presentacion PIA (individual)
+|Hash commit | Nombre video | Duracion|
+| :--- | :--- | :---
+|8acc90013244e7dd5b234b617909380202398675 | video_Flores_Eduardo.mp4 |3:00|
+| e5ab8fd9c7d47fd45ab840179a6635b47f48abdd | Video flores pinal |02:26|
